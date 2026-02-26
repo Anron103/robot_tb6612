@@ -70,189 +70,54 @@ curl -X POST [http://192.168.137.1:8000/conversation](http://192.168.137.1:8000/
 
 Зависимости необходимые серверу:
 
-Flask
-
-3.1.2
-
-Flask-SocketIO
-
-5.6.0
-
-Jinja2
-
-3.1.6
-
-MarkupSafe
-
-3.0.3
-
-PyYAML
-
-6.0.3
-
-Werkzeug
-
-3.1.5
-
-annotated-types
-
-0.7.0
-
-antlr4-python3-runtime
-
-4.9.3
-
-anyio
-
-4.12.1
-
-bidict
-
-0.23.1
-
-blinker
-
-1.9.0
-
-certifi
-
-2026.2.25
-
-cffi
-
-2.0.0
-
-charset-normalizer
-
-3.4.4
-
-click
-
-8.3.1
-
-colorama
-
-0.4.6
-
-fastapi
-
-0.117.0
-
-filelock
-
-3.20.3
-
-fsspec
-
-2026.1.0
-
-h11
-
-0.16.0
-
-idna
-
-3.11
-
-itsdangerous
-
-2.2.0
-
-mpmath
-
-1.3.0
-
-networkx
-
-3.6.1
-
-numpy
-
-2.4.2
-
-omegaconf
-
-2.3.0
-
-pip
-
-23.2.1
-
-pycparser
-
-3.0
-
-pydantic
-
-2.12.5
-
-pydantic_core
-
-2.41.5
-
-python-engineio
-
-4.13.0
-
-python-multipart
-
-0.0.20
-
-python-socketio
-
-5.16.0
-
-requests
-
-2.31.0
-
-setuptools
-
-80.10.2
-
-simple-websocket
-
-1.1.0
-
-soundfile
-
-0.13.1
-
-starlette
-
-0.48.0
-
-sympy
-
-1.14.0
-
-torch
-
-2.10.0
-
-torchaudio
-
-2.10.0
-
-typing-inspection
-
-0.4.2
-
-typing_extensions
-
-4.15.0
-
-urllib3
-
-2.6.3
-
-uvicorn
-
-0.37.0
-
-wsproto
-
-1.3.2
+| Библиотека             | Версия    |
+| ---------------------- | --------- |
+| Flask                  | 3.1.2     |
+| Flask-SocketIO         | 5.6.0     |
+| Jinja2                 | 3.1.6     |
+| MarkupSafe             | 3.0.3     |
+| PyYAML                 | 6.0.3     |
+| Werkzeug               | 3.1.5     |
+| annotated-types        | 0.7.0     |
+| antlr4-python3-runtime | 4.9.3     |
+| anyio                  | 4.12.1    |
+| bidict                 | 0.23.1    |
+| blinker                | 1.9.0     |
+| certifi                | 2026.2.25 |
+| cffi                   | 2.0.0     |
+| charset-normalizer     | 3.4.4     |
+| click                  | 8.3.1     |
+| colorama               | 0.4.6     |
+| fastapi                | 0.117.0   |
+| filelock               | 3.20.3    |
+| fsspec                 | 2026.1.0  |
+| h11                    | 0.16.0    |
+| idna                   | 3.11      |
+| itsdangerous           | 2.2.0     |
+| mpmath                 | 1.3.0     |
+| networkx               | 3.6.1     |
+| numpy                  | 2.4.2     |
+| omegaconf              | 2.3.0     |
+| pip                    | 23.2.1    |
+| pycparser              | 3.0       |
+| pydantic               | 2.12.5    |
+| pydantic_core          | 2.41.5    |
+| python-engineio        | 4.13.0    |
+| python-multipart       | 0.0.20    |
+| python-socketio        | 5.16.0    |
+| requests               | 2.31.0    |
+| setuptools             | 80.10.2   |
+| simple-websocket       | 1.1.0     |
+| soundfile              | 0.13.1    |
+| starlette              | 0.48.0    |
+| sympy                  | 1.14.0    |
+| torch                  | 2.10.0    |
+| torchaudio             | 2.10.0    |
+| typing-inspection      | 0.4.2     |
+| typing_extensions      | 4.15.0    |
+| urllib3                | 2.6.3     |
+| uvicorn                | 0.37.0    |
+| wsproto                | 1.3.2     |
 
 Комманда для установки зависимостей:
 pip install Flask==3.1.2 Flask-SocketIO==5.6.0 Jinja2==3.1.6 MarkupSafe==3.0.3 PyYAML==6.0.3 Werkzeug==3.1.5 annotated-types==0.7.0 antlr4-python3-runtime==4.9.3 anyio==4.12.1 bidict==0.23.1 blinker==1.9.0 certifi==2026.2.25 cffi==2.0.0 charset-normalizer==3.4.4 click==8.3.1 colorama==0.4.6 fastapi==0.117.0 filelock==3.20.3 fsspec==2026.1.0 h11==0.16.0 idna==3.11 itsdangerous==2.2.0 mpmath==1.3.0 networkx==3.6.1 numpy==2.4.2 omegaconf==2.3.0 pip==23.2.1 pycparser==3.0 pydantic==2.12.5 pydantic_core==2.41.5 python-engineio==4.13.0 python-multipart==0.0.20 python-socketio==5.16.0 requests==2.31.0 setuptools==80.10.2 simple-websocket==1.1.0 soundfile==0.13.1 starlette==0.48.0 sympy==1.14.0 torch==2.10.0 torchaudio==2.10.0 typing-inspection==0.4.2 typing_extensions==4.15.0 urllib3==2.6.3 uvicorn==0.37.0 wsproto==1.3.2
@@ -267,37 +132,16 @@ python3-pygame python3-rpi.gpio python3-xlib libatlas-base-dev libjasper-dev lib
 
 sudo apt-get install -y flac ffmpeg
 
-pygame
-
-2.0.0
-
-SpeechRecognition
-
-3.8.0
-
-requests
-
-2.25.0
-
-psutil
-
-5.8.0
-
-PyAudio
-
-0.2.11
-
-numpy
-
-1.19.0
-
-python-xlib
-
-0.29
-
-RPi.GPIO
-
-0.7.0
+| Библиотека        | Версия |
+| ----------------- | ------ |
+| pygame            | 2.0.0  |
+| SpeechRecognition | 3.8.0  |
+| requests          | 2.25.0 |
+| psutil            | 5.8.0  |
+| PyAudio           | 0.2.11 |
+| numpy             | 1.19.0 |
+| python-xlib       | 0.29   |
+| RPi.GPIO          | 0.7.0  |
 
 Комманда для установки зависимостей:
 pip3 install pygame==2.0.0 SpeechRecognition==3.8.0 requests==2.25.0 psutil==5.8.0 numpy==1.19.0 python-xlib==0.29
