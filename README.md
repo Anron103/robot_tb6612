@@ -18,9 +18,9 @@ POST /conversation
 
 Запрос
 
-curl -X POST [http://192.168.137.1:8000/conversation](http://192.168.137.1:8000/conversation) \
+curl -X POST [http://192.168.137.1:8000/conversation](http://192.168.137.1:8000/conversation) 
 
--H "Content-Type: application/json" \
+-H "Content-Type: application/json" 
 
 -d '{
 
